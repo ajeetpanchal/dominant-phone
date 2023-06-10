@@ -9,7 +9,7 @@
 ## Installation
 
 1. Clone the repository: `https://github.com/ajeetpanchal/dominant-phone.git`
-2. Navigate to the project directory: `cd Dominant_Phone`
+2. Navigate to the project directory: `cd dominant-phone`
 3. Create a virtual environment: `python -m venv venv`
 4. Activate the virtual environment:
    - For Windows: `venv\Scripts\activate`
