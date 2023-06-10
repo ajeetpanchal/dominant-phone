@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phone Details</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Phone Details</h1>
+    <table>
+        <tr>
+            <th>Processor</th>
+            <th>Name</th>
+            <th>Cost</th>
+            <th>RAM</th>
+        </tr>
+        {% for phone in phone_details %}
+        <tr>
+            <td>{{ phone[0] }}</td>
+            <td>{{ phone[1] }}</td>
+            <td>{{ phone[2] }}</td>
+            <td>{{ phone[3] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
